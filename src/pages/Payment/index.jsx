@@ -51,14 +51,17 @@ function Payment() {
     }, [])
     if (localStorage.getItem("token") === null) { swal("Belum login?", "Login dulu, yuk?", "warning").then(() => { history.push("/user/Login") }) }
     const formatRibuan = (uang) => {
-        const sisa = uang.toString().length % 3
-        let rupiah = uang.toString().substr(0, sisa)
-        const ribuan = uang.toString().substr(sisa).match(/\d{3}/g);
-        if (ribuan) {
-            const separator = sisa ? '.' : '';
-            rupiah += separator + ribuan.join('.');
+        if(uang !== null){
+            const sisa = uang.toString().length % 3
+            let rupiah = uang.toString().substr(0, sisa)
+            const ribuan = uang.toString().substr(sisa).match(/\d{3}/g);
+            if (ribuan) {
+                const separator = sisa ? '.' : '';
+                rupiah += separator + ribuan.join('.');
+            }
+            return rupiah
         }
-        return rupiah
+        return ""
     }
     if (transactions !== null) {
         return (

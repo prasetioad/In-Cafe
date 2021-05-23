@@ -7,7 +7,7 @@ import axios from 'axios'
 import swal from 'sweetalert'
 
 export default function ProductDetails() {
-   const transaksi = localStorage.getItem("_IdTransaction")
+   const transaksi = localStorage.getItem("_IdTransaction0")
    const { products } = useSelector(state => state.chart)
    const dispatch = useDispatch()
    // basic set-up
@@ -35,31 +35,6 @@ export default function ProductDetails() {
          .then((res) => { swal("Success", "Berhasil hapus makanan dari list!", "success").then(() => { history.push("/Products?page=1&limit=8") }) })
          .catch((err) => { console.log(err.response) })
    }
-   // const createTransaction = () => {
-   //    const sumPrice = price * howMuchProduct
-   //    const transactionData = {
-   //       subTotal: sumPrice,
-   //       sizeProduct: sizeChosen,
-   //       deliveryMethod: deliveryChosen,
-   //       tax: 0,
-   //       postageCost: 0
-   //    }
-   //    if(howMuchProduct === 0) { swal("Failed", "Untuk pemesanan menu minimal satu ~", "error") }
-   //    else if(sizeChosen === "") { swal("Failed", "Tolong pilih ukurannya dulu yah ~", "error") }
-   //    else if(deliveryChosen === "") { swal("Failed", "Aku harus anter atau gak nih? Tentuin dulu dong ~", "error") }
-   //    else{
-   //       axios.post(process.env.REACT_APP_SERVER + "/v1/trx", transactionData, { headers: {Authorization: "Bearer " + localStorage.getItem("token")} })
-   //       .then((res) => { 
-   //          localStorage.setItem("transactionId", res.data.data.id)
-   //          localStorage.setItem("productId", getProductDetail.id)
-   //          localStorage.setItem("sizeProduct", sizeChosen)
-   //          localStorage.setItem("howMuch", howMuchProduct)
-   //          swal("Success", "Berhasil membuat transaksi baru, silahkan lanjut ke pembayaran!", "success").then(() => {history.push("/user/Payment")}) 
-   //       })
-   //       .catch((err) => { console.log(err.response) })
-   //    }
-   // }
-
    // NEW CREATE TRANSACTION
    const newCreateTransaction = () => {
       const sumPrice = price * howMuchProduct

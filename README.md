@@ -8,10 +8,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3e5e5f0e-297c-4bbe-85d7-12793c76f338/deploy-status)](https://incafe.netlify.app/)   
 </div>
 
-# ReactJS - In Cafe
-    Erwin Saputra Sulistio - Fullstack Web 8, 
-    Team Project - Week 8.
-    
 ## How To Install?
 - Clone This Repo
 ```

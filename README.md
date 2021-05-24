@@ -9,7 +9,7 @@
 </div>
 
 ## :monocle_face: About  
-  "InCafe serves you with some amazing services such as ordering foods & drinks then pay them via online, after that just wait and enjoy your food in no time without going outside! Our application is also already responsive in both Desktop and Mobile sites, giving you the best user-friendly Graphical User Interface (GUI) anywhere. When you need to grab some foods, just stay still because InCafe is ready to help you! Built on ReactJS and ExpressJS, with MySQL as the database."
+  "InCafe offers you with some amazing services such as ordering foods & drinks then pay them via online, after that just wait and enjoy your food in no time without going outside! Our application is also already responsive in both Desktop and Mobile sites, giving you the best user-friendly Graphical User Interface (GUI) anywhere. When you need to grab some foods, just stay still because InCafe is ready to serve you! Built on ReactJS and ExpressJS, with MySQL as the database."
 
 ## How To Install?
 - Clone This Repo

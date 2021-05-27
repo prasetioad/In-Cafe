@@ -2,7 +2,7 @@ import './style.css'
 import React, { useEffect, useState } from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import { Link, useHistory } from 'react-router-dom'
-import CoffeeLogo from '../../atoms/CoffeeLogo'
+import InCafeLogo from '../../../assets/incafe.png'
 import {BtnLg, CustomButton} from '../../atoms/'
 import axios from 'axios'
 import swal from 'sweetalert'
@@ -44,7 +44,7 @@ const Navbar = ()=>{
          {/* NAVBAR - DESKTOP */}
          <div className="navbarDesktop">
                <div className="displayRow navbarInMobileState" style={{alignItems: "center", justifyContent: "space-between"}}>
-                  <CoffeeLogo cls="coffeeLogoClass"/>
+                  <img className="coffeeLogoClass" src={InCafeLogo}/>
                   <img className="navHamMenuBtn hideThisInDesktop" onClick={ () => { showHamMenu(!hamMenu) } } src="https://cdn3.iconfinder.com/data/icons/mini-icon-set-general-office/91/General_-_Office_30-512.png"/>
                </div>
                <div className="hideThisInDesktop">

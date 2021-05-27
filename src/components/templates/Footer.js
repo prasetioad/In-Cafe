@@ -1,5 +1,6 @@
 import React from 'react'
 import { BtnImgSm, Logo } from '../molekuls'
+import InCafeLogo from '../../assets/incafev2.png'
 // -----image------
 import fb from '../../assets/fb.png'
 import ig from '../../assets/ig.png'
@@ -12,9 +13,9 @@ function Footer() {
             <div className='container'>
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-8 mb-3">
-                        <Logo />
+                        <img className="coffeeLogoClass" src={InCafeLogo}/>
                         <div>
-                            <p className='fw-500 fc-1 mw-400'>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                            <p className='fw-500 fc-1 mw-400'>InCafe is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
                         </div>
                         <div className='d-flex'>
                             <BtnImgSm img={fb} className='mr-2'/>

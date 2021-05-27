@@ -5,7 +5,7 @@ import swal from 'sweetalert'
 // -----------component-------------
 import {CardFly} from '../organisme'
 import {MainInput, BtnSm, BtnLg, Heading5, CustomButton} from '../atoms'
-import {Logo} from '../molekuls'
+import InCafeLogo from '../../assets/incafe.png'
 // ----img-------
 import img from '../../assets/img-1.png'
 function AuthSignUp() {
@@ -64,7 +64,7 @@ function AuthSignUp() {
                 <div className="col-12 col-md-5">
                     <div className="d-flex my-4 justify-content-between">
                         <div>
-                            <Logo />
+                            <img className="coffeeLogoClass" src={InCafeLogo}/>
                         </div>
                         <div>
                             <Link to='/user/login'><CustomButton bgClr="#FFBA33" brRad="0.5vw" btnPdg="0.5vw 3vw" ftSize="1.1vw" ftWg="bold" mrgn="0.77vw 0" txClr="#6A4029" value="Login" wd="auto"></CustomButton></Link>

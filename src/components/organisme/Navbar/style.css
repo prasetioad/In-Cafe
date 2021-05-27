@@ -36,6 +36,7 @@
     .imgNavbar:hover {cursor: pointer;}
     .hoverThis:hover {opacity: 0.5;}
     .coffeeLogoClass {width: 7.7vw;}
+    .footerCoffeeLogo {margin-top: -2.5vw;}
     .searchNavbarButton {height: 1vw;}
     .hideThisInDesktop {display: none;}
     .reusableNavbarRightSide, .specialCaseForRightSideNav {align-items: center; display: flex; flex-direction: row;}
@@ -75,6 +76,7 @@
     .imgNavbar:hover {cursor: pointer;}
     .hoverThis:hover {opacity: 0.5;}
     .coffeeLogoClass {width: 38vw;}
+    .footerCoffeeLogo {margin-top: -15vw;}
     .hideThisInMobile {display: none;}
     .searchNavbarButton {height: 24px; width: 24px;}
     .searchInputBoxNavbar {width: 55vw;}

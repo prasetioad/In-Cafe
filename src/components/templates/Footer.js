@@ -13,7 +13,7 @@ function Footer() {
             <div className='container'>
                 <div className="row">
                     <div className="col-12 col-md-12 col-lg-8 mb-3">
-                        <img className="coffeeLogoClass" src={InCafeLogo}/>
+                        <img className="coffeeLogoClass footerCoffeeLogo" src={InCafeLogo}/>
                         <div>
                             <p className='fw-500 fc-1 mw-400'>InCafe is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
                         </div>

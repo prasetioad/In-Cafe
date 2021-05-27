@@ -30,8 +30,8 @@ npm install
   <span>
 	  <img width="415" src="https://user-images.githubusercontent.com/77045083/116245936-b2661e00-a793-11eb-84ca-1401ade1bec4.png">
 	  <img width="415" height="254" src="https://user-images.githubusercontent.com/77045083/116245971-bb56ef80-a793-11eb-9b90-56ce9a273465.png">
-	  <img width="415" height="277" src="https://user-images.githubusercontent.com/66661143/119781334-172ca980-bef5-11eb-976c-7e52b2a2c8a3.jpg">
-	  <img width="415" src="https://user-images.githubusercontent.com/77045083/116245993-bf830d00-a793-11eb-8131-338bb7aa8f9d.png">
+	  <img width="415" height="277" src="https://user-images.githubusercontent.com/77045083/119781617-6f63ab80-bef5-11eb-9bd5-e45f3f89f972.png">
+	  <img width="415" height="277" src="https://user-images.githubusercontent.com/77045083/119781877-b6ea3780-bef5-11eb-84d6-980d8fbc6305.png">
   </span>
 
 ## Live Demo
